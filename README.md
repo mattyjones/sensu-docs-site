@@ -22,6 +22,14 @@
 
 ### Getting Started with Hugo
 
+Sensu Docs Site uses Hugo version 0.30.2. Please install this version for
+local development.
+
+If you would like to upgrade Hugo to a newer version, please ensure that
+both the binary in `bin` and the Heroku `HUGO_VERSION` variable are
+updated so that TravisCI and Heroku will use the same versions when testing
+and deploying your changes.
+
 #### Initial Setup - OS X
 
 These instructions assume you have [Homebrew](https://brew.sh/) installed. Please refer to [Hugo Docs](https://gohugo.io/getting-started/installing/) otherwise.
@@ -42,7 +50,7 @@ cd sensu-docs-site ; git submodule update --init --recursive
 
 #### Initial Setup - RedHat/CentOS/Fedora
 
-Sensu Docs Site uses Hugo > .30. You'll need to ensure that you've downloaded that version prior to cloning the repo. To install the repo, ensure that you have the yum-utils package installed:
+To install the Hugo repo on CentOS or Fedora, ensure that you have the yum-utils package installed:
 
 ```
 sudo yum install - yum-utils
