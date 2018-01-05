@@ -560,9 +560,9 @@ button.accordion.active, button.accordion:hover {
   background-color: #dbdbdb; 
 }
 
-/* Version Banner/Alerts ----------------------------------------------------------------- */
+/* Alerts ----------------------------------------------------------------- */
 
-.versionBanner {
+.alertBanner {
   background-color: #cc7d7c;
   box-shadow: 0 3px 8px rgba(0,0,0,.05);
   position: absolute;
@@ -572,15 +572,15 @@ button.accordion.active, button.accordion:hover {
   text-align: center;
 }
 
-.versionBanner a, .versionBanner span {
+.alertBanner a, .alertBanner span {
   color: #dedede;
 }
 
-.versionBanner a:hover {
+.alertBanner a:hover {
   color: #ffffff;
 }
 
-.versionBannerText {
+.alertBannerText {
   font-size: 14px;
 }
 
@@ -717,7 +717,7 @@ button.accordion.active, button.accordion:hover {
     width: 90px;
   }
 
-  .versionBanner {
+  .alertBanner {
     top: 55px;
   }
 }
@@ -848,7 +848,7 @@ button.accordion.active, button.accordion:hover {
   #productVersionNav #productButton a, #productVersionNav #versionButton a {
     padding: 5px;
   }
-  
+
   #productVersionNav #productButton {
     width: 190px;
   }
@@ -858,7 +858,7 @@ button.accordion.active, button.accordion:hover {
     width: 70px;
   }
 
-  .versionBanner {
+  .alertBanner {
     top: 50px;
   }
 }
@@ -900,7 +900,7 @@ button.accordion.active, button.accordion:hover {
   //  margin-left: 0;
   //}
 
-  //.versionBanner {
+  //.alertBanner {
   //  top: 64px;
   //}
 
